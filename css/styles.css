@@ -167,6 +167,7 @@ nav {
 .hero-content {
     max-width: 600px;
     z-index: 2;
+    text-align: justify;
 }
 
 .hero h1 {
