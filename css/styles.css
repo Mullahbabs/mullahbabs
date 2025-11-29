@@ -210,6 +210,48 @@ nav {
     z-index: 1;
 }
 
+/* Hero Section Mobile Fix */
+@media (max-width: 992px) {
+    .hero-image {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 100%;
+        margin-top: 40px;
+        display: block !important;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 120px 0 60px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+/* Additional mobile optimization */
+@media (max-width: 768px) {
+    .hero-image {
+        margin-top: 30px;
+    }
+
+    .hero-image div {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-image div {
+        height: 250px !important;
+        font-size: 1.2rem !important;
+    }
+}
+
 .floating-shapes {
     position: absolute;
     width: 100%;
